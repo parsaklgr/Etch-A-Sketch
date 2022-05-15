@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    height: 1200px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.grid-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    height: 960px;
+    width: 960px;
+    display: grid;
+}
+.container-div {
+    background-color: aliceblue;
+    border : 0.1px solid #1d1919;
+}
+.container-div-colored {
+    background-color: #1d1919;
+}
